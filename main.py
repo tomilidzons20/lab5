@@ -291,8 +291,8 @@ while 1:
 
 
 def ciagaryt(n, a1, r):
-    for n in range(1, n + 1):
-        yield f"a{n} = {a1 + (n - 1) * r}"
+    for x in range(1, n + 1):
+        yield f"a{x} = {a1 + (x - 1) * r}"
 
 
 print("\nZad10")
